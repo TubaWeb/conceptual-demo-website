@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    margin: 0;
 }
 /* start nav style */
 header{
@@ -9,6 +10,7 @@ header{
 .nav-container{
     border: 2px solid rgb(223, 214, 213);
     max-width: 1400px;
+    min-height: 50px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -59,5 +61,68 @@ header{
 /* end nav style */
 
 /* start banner style */
+.banner{
+    /* border: 2px solid rgb(246, 135, 123); */
+    background-color: rgba(221, 223, 226, 0.774);
+    max-width: 1400px;
+    margin: 0 auto; 
+    margin-top: 50px;
+    display: flex;
+    border-radius: 10px;
+}
+.banner-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
 
+}
+.banner-title{
+    font-size: 4rem;
+}
+.banner-description{
+    font-family:'Dancing Script', cursive;
+    font-size: 2rem;
+}
+.banner-icons span i{
+    width: 50px;
+}
+.banner-icons .fa-facebook{
+    color: #3b5998;
+    font-size: 2rem;
+}
+.banner-icons .fa-twitter{
+    color: #00acee;
+    font-size: 2rem;
+}
+.banner-icons .fa-youtube{
+    color: #CD201F;
+    font-size: 2rem;
+}
+.banner-icons .fa-square-instagram{
+    color: #c5048e;
+    font-size: 2rem;
+    /* background-color: #f625be; */
+}
+.banner-btn button{
+    color: rgb(48, 48, 48);
+    border: none;
+    padding: 8px 12px;
+    border: 1px solid #c5048e;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.img-container{
+    width: 50%;
+}
+.img-container img{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 20px;
+}
 /* end banner style */
